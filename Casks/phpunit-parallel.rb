@@ -14,22 +14,22 @@ cask "phpunit-parallel" do
   on_macos do
     on_intel do
       url "https://github.com/alexdempster44/phpunit-parallel/releases/download/v#{version}/phpunit-parallel_#{version}_darwin_amd64.tar.gz"
-      sha256 "792596c9899474c9167d42107ff25739bbdda4b319f4aab543fcbeb6c8220fb4"
+      sha256 "4fb43ab6c900f98dd258807f3362b6b9d0386a6affaacf43fe2d9b2727711f9f"
     end
     on_arm do
       url "https://github.com/alexdempster44/phpunit-parallel/releases/download/v#{version}/phpunit-parallel_#{version}_darwin_arm64.tar.gz"
-      sha256 "3f79be531a56d2639fea3abf076811fe088d8327a3e7d9ed438961416ac54ff9"
+      sha256 "16ab4423106f1b3fa5604dfbd746e76a376bacb3433794326fc24bb7abc6e73b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/alexdempster44/phpunit-parallel/releases/download/v#{version}/phpunit-parallel_#{version}_linux_amd64.tar.gz"
-      sha256 "3ea424a9bec85df0aa24cd2b8362ccea36c0446fccc83dbea766b4e3e5247fb8"
+      sha256 "19c3579cf86972e60de5a897afc09d98afd6b3b7431504a82c23ac37cfd2dbb0"
     end
     on_arm do
       url "https://github.com/alexdempster44/phpunit-parallel/releases/download/v#{version}/phpunit-parallel_#{version}_linux_arm64.tar.gz"
-      sha256 "5b84f915118af49befa46df9203d3312f7672d0a0724366d877cb6070ea815a0"
+      sha256 "eacb1f6ba5cb34cd60bb8b00c38e6e6acbcdf4b34ae99866c05a8afbc9f5941c"
     end
   end
 
