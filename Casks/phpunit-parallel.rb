@@ -3,7 +3,7 @@ cask "phpunit-parallel" do
   name "phpunit-parallel"
   desc "A CLI tool to run PHPUnit tests in parallel, with a beautiful terminal UI"
   homepage "https://github.com/alexdempster44/phpunit-parallel"
-  version "0.7.0+1"
+  version "0.7.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "phpunit-parallel" do
   on_macos do
     on_intel do
       url "https://github.com/alexdempster44/phpunit-parallel/releases/download/v#{version}/phpunit-parallel_#{version}_darwin_amd64.tar.gz"
-      sha256 "7fda6143af8d9b73d43efd8d1cbf3d34d7365c6e6da5b3e0b42f0cdd0b847c4e"
+      sha256 "bd312d87ae5021e6b93a966d70c832a04b10b1db827204971ef087f023c10bd1"
     end
     on_arm do
       url "https://github.com/alexdempster44/phpunit-parallel/releases/download/v#{version}/phpunit-parallel_#{version}_darwin_arm64.tar.gz"
-      sha256 "1874b5d0ae61567b7a72bc9aeac8cde02851a79b8833ad8c9885943d4b174d2d"
+      sha256 "ca88a29ed00fcdc145098352b2702604faa6877c7a48b84dda6eda4e3d079581"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/alexdempster44/phpunit-parallel/releases/download/v#{version}/phpunit-parallel_#{version}_linux_amd64.tar.gz"
-      sha256 "1b18a1f035d1bd17913cc9a03ef4b2763f1c814fbb5f764d28b9810afb7d13da"
+      sha256 "515c5f704feed84e5bef40b84c5c10152f72762a03850a2944d7b507ce13c347"
     end
     on_arm do
       url "https://github.com/alexdempster44/phpunit-parallel/releases/download/v#{version}/phpunit-parallel_#{version}_linux_arm64.tar.gz"
-      sha256 "15f586d86595fccbf4399b169f792412529c6e931b13994df42f798c1e1f11e2"
+      sha256 "ecf5b810548b3a408d81af11eeabef6b52a409dd48b626ef5cc8fc4a0c86ee6a"
     end
   end
 
